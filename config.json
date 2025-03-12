@@ -1,0 +1,24 @@
+{
+    "theme": "light",
+    "max_file_size_mb": 100,
+    "default_merge_method": "append",
+    "plugins_enabled": true,
+    "export_formats": ["csv", "xlsx", "json"],
+    "ui": {
+        "show_logo": true,
+        "show_footer": true,
+        "accent_color": "#4b8bbe"
+    },
+    "advanced_features": {
+        "enable_transformations": true,
+        "enable_data_preview": true,
+        "enable_column_mapping": true,
+        "enable_data_quality_analysis": true
+    },
+    "default_fill_methods": {
+        "numeric": "mean",
+        "categorical": "mode",
+        "datetime": "forward_fill",
+        "text": "empty_string"
+    }
+}
